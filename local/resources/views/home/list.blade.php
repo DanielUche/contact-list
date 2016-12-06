@@ -15,11 +15,11 @@
                 		<th>Email</th>
                         <th>Actions</th>
                 	</tr>
-                    <tr ng-show="is_edit==true">
-                        <td colspan="4">
+                    <tr  ng-show="is_edit==true">
+                        <td class="" colspan="4">
                     <form role="form" name="signupForm" novalidate ng-submit=" signupForm.$valid && update(acc.id)">
                     <div class="col-sm-4">
-                        <div class="form-group">
+                        <div class="form-group computed">
                             <label>Name</label>
                             <input type="hidden" name="id" ng-model="acc.id" required>
                             <input type="text" placeholder="name" class="form-control input-sm" name="name" ng-model="acc.name" required>

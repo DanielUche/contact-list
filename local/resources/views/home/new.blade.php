@@ -34,7 +34,7 @@
                 </div>
 
                 <div class="form-group">
-                    <button class="btn btn-sm btn-primary" type="submit"><strong> <i class = "fa fa-floppy-o"></i> Submit form</strong></button>
+                    <button class="btn btn-sm btn-primary" type="submit"><strong> <i class = "fa fa-floppy-o"></i> Save Contact Details</strong></button>
                 </div>
             </form>
         </div>
